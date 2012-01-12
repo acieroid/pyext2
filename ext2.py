@@ -4,8 +4,6 @@ from blockgroup import BlockGroup, BlockGroupSize
 from inode import Inode, InodeSize
 from direntry import DirEntry, DirEntrySize
 
-from stat import S_IFDIR
-
 MaxBlocksRead = 10
 
 class NotFound(Exception):

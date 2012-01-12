@@ -34,7 +34,7 @@ class Inode():
     def get_links_count(self):
         return self.fields['links_count']
     def get_blocks(self):
-        return self.blocks[:11]
+        return self.blocks[:12]
     def get_flags(self):
         return self.fields['flags']
 
